@@ -1,0 +1,17 @@
+{
+  "name": "mocha-bootstrap-converter",
+  "version": "1.0.0",
+  "description": "follow up the nodejs-mocha testing article, 'https://semaphoreci.com/community/tutorials/getting-started-with-node-js-and-mocha'",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "author": "hongfuongduy",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "mocha": "^8.1.3",
+    "request": "^2.88.2"
+  }
+}
